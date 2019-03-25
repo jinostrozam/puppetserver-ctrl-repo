@@ -20,6 +20,6 @@ Vagrant.configure("2") do |config|
   
       vm1.vm.provision "shell", path: "scripts/install_puppet.sh"
 
-      vm1.vm.synced_folder "./control-repo", "/etc/puppetlabs/code/environments/production"
+      vm1.vm.synced_folder "./control-repo-ppserver", "/etc/puppetlabs/code/environments/production"
   end
 end
