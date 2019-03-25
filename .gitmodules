@@ -1,0 +1,4 @@
+[submodule "control-repo"]
+	path = control-repo
+	url = git@github.com:jinostrozam/control-repo.git
+	branch = production
