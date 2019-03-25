@@ -2,3 +2,7 @@
 	path = control-repo
 	url = git@github.com:jinostrozam/control-repo.git
 	branch = production
+[submodule "contro-repo-ppserver"]
+	path = contro-repo-ppserver
+	url = git@github.com:jinostrozam/contro-repo-ppserver.git
+	branch = production
